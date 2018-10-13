@@ -5,11 +5,11 @@
     "rows": 8,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "C:\\Users\\ningbo\\Documents\\GitHub\\CMPUT250\\directions_enemy_demo\\img\\characters\\%config-character.png",
+    "sampleImg": "D:\\temp2\\CMPUT250-develop\\CMPUT250-develop\\directions_enemy_demo\\img\\characters\\%config-character.png",
     "poses": {
       "move4": {
         "name": "move4",
-        "speed": 3,
+        "speed": 4,
         "adjust": false,
         "pattern": [
           10,
@@ -27,7 +27,7 @@
       },
       "move6": {
         "name": "move6",
-        "speed": 3,
+        "speed": 4,
         "adjust": false,
         "pattern": [
           12,
@@ -45,7 +45,7 @@
       },
       "move2": {
         "name": "move2",
-        "speed": 3,
+        "speed": 4,
         "adjust": false,
         "pattern": [
           36,
@@ -64,7 +64,7 @@
       },
       "move8": {
         "name": "move8",
-        "speed": 3,
+        "speed": 4,
         "adjust": false,
         "pattern": [
           24,
@@ -83,7 +83,7 @@
       },
       "move1": {
         "name": "move1",
-        "speed": 3,
+        "speed": 4,
         "adjust": false,
         "pattern": [
           95,
@@ -102,7 +102,7 @@
       },
       "move3": {
         "name": "move3",
-        "speed": 3,
+        "speed": 4,
         "adjust": false,
         "pattern": [
           60,
@@ -121,7 +121,7 @@
       },
       "move7": {
         "name": "move7",
-        "speed": 3,
+        "speed": 4,
         "adjust": false,
         "pattern": [
           83,
@@ -140,7 +140,7 @@
       },
       "move9": {
         "name": "move9",
-        "speed": 3,
+        "speed": 4,
         "adjust": false,
         "pattern": [
           48,
@@ -162,14 +162,14 @@
   "monster1": {
     "name": "monster1",
     "cols": 12,
-    "rows": 4,
+    "rows": 8,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "C:\\Users\\Zhizhou\\Documents\\Games\\directions_enemy_demo\\img\\characters\\%config-monster1 move.png",
+    "sampleImg": "D:\\temp2\\CMPUT250-develop\\CMPUT250-develop\\directions_enemy_demo\\img\\characters\\%config-monster1 move.png",
     "poses": {
       "move2": {
         "name": "move2",
-        "speed": 10,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           36,
@@ -188,7 +188,7 @@
       },
       "move4": {
         "name": "move4",
-        "speed": 10,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           11,
@@ -207,7 +207,7 @@
       },
       "move6": {
         "name": "move6",
-        "speed": 10,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           12,
@@ -226,7 +226,7 @@
       },
       "move8": {
         "name": "move8",
-        "speed": 10,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           24,
@@ -248,14 +248,14 @@
   "monster2": {
     "name": "monster2",
     "cols": 12,
-    "rows": 4,
+    "rows": 8,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "C:\\Users\\Zhizhou\\Documents\\Games\\directions_enemy_demo\\img\\characters\\%config-monster2 move.png",
+    "sampleImg": "D:\\temp2\\CMPUT250-develop\\CMPUT250-develop\\directions_enemy_demo\\img\\characters\\%config-monster2 move.png",
     "poses": {
       "move2": {
         "name": "move2",
-        "speed": 10,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           24,
@@ -274,7 +274,7 @@
       },
       "move4": {
         "name": "move4",
-        "speed": 10,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           11,
@@ -293,7 +293,7 @@
       },
       "move6": {
         "name": "move6",
-        "speed": 10,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           12,
@@ -312,7 +312,7 @@
       },
       "move8": {
         "name": "move8",
-        "speed": 10,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           36,
@@ -334,10 +334,10 @@
   "tendril 2": {
     "name": "tendril 2",
     "cols": 12,
-    "rows": 4,
+    "rows": 8,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "C:\\Users\\ningbo\\Documents\\GitHub\\CMPUT250\\directions_enemy_demo\\img\\characters\\%config-tendril 2.png",
+    "sampleImg": "D:\\temp2\\CMPUT250-develop\\CMPUT250-develop\\directions_enemy_demo\\img\\characters\\%config-tendril 2.png",
     "poses": {
       "move0": {
         "name": "move0",
@@ -364,11 +364,11 @@
     "rows": 8,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "C:\\Users\\ningbo\\Documents\\GitHub\\CMPUT250\\directions_enemy_demo\\img\\characters\\%config-monster3 move.png",
+    "sampleImg": "D:\\temp2\\CMPUT250-develop\\CMPUT250-develop\\directions_enemy_demo\\img\\characters\\%config-monster3 move.png",
     "poses": {
       "move2": {
         "name": "move2",
-        "speed": 5,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           36,
@@ -387,7 +387,7 @@
       },
       "move4": {
         "name": "move4",
-        "speed": 5,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           0,
@@ -400,7 +400,7 @@
       },
       "move6": {
         "name": "move6",
-        "speed": 5,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           17,
@@ -413,7 +413,7 @@
       },
       "move8": {
         "name": "move8",
-        "speed": 5,
+        "speed": 12,
         "adjust": false,
         "pattern": [
           35,
@@ -481,6 +481,45 @@
           6,
           7,
           8
+        ]
+      }
+    }
+  },
+  "orb": {
+    "name": "orb",
+    "cols": 21,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\temp2\\CMPUT250-develop\\CMPUT250-develop\\directions_enemy_demo\\img\\characters\\%config-orb.png",
+    "poses": {
+      "Pose0": {
+        "name": "Pose0",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
         ]
       }
     }
