@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":1131,"scrollY":759},
-{"id":2,"expanded":false,"name":"MAP002","order":2,"parentId":0,"scrollX":1437.818181818182,"scrollY":808.3636363636364},
-{"id":3,"expanded":false,"name":"MAP003","order":3,"parentId":0,"scrollX":1914,"scrollY":1129.5},
-{"id":4,"expanded":false,"name":"MAP004","order":4,"parentId":0,"scrollX":1139,"scrollY":661}
+{"id":1,"expanded":false,"name":"MAPTEST","order":1,"parentId":0,"scrollX":2584,"scrollY":1506},
+{"id":2,"expanded":false,"name":"MAPTEST2","order":2,"parentId":0,"scrollX":2584,"scrollY":1506},
+{"id":3,"expanded":false,"name":"Inner Castle","order":3,"parentId":0,"scrollX":1701.3333333333333,"scrollY":1508},
+{"id":4,"expanded":false,"name":"Final Boss","order":4,"parentId":0,"scrollX":1701.3333333333333,"scrollY":1897.3333333333333}
 ]
