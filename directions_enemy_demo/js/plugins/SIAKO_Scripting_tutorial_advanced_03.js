@@ -27,24 +27,28 @@
 		this._itemButton = new Sprite_Button();
 		this._itemButton.setClickHandler(this.commandItem.bind(this));
 		this._itemButton.y = 100;
+		this._itemButton.x = 500;
+		
 
 		this._saveButton = new Sprite_Button();
 		this._saveButton.setClickHandler(this.commandSave.bind(this));
 		this._saveButton.y = 180;
+		this._saveButton.x = 500;
 
 		this._loadButton = new Sprite_Button();
 		this._loadButton.setClickHandler(this.commandLoad.bind(this));
 		this._loadButton.y = 260;
+		this._loadButton.x = 500;
 
 		this._optionsButton = new Sprite_Button();
 		this._optionsButton.setClickHandler(this.commandOptions.bind(this));
 		this._optionsButton.y = 340;
+		this._optionsButton.x = 500;
 
 		this._endButton = new Sprite_Button();
 		this._endButton.setClickHandler(this.commandGameEnd.bind(this));
 		this._endButton.y = 420;
-
-		this.addChild( this._itemButton );
+		this._endButton.x = 500;
 		this.addChild( this._saveButton );
 		this.addChild( this._loadButton );
 		this.addChild( this._optionsButton );
