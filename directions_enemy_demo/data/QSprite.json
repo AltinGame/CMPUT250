@@ -9,8 +9,8 @@
     "poses": {
       "move4": {
         "name": "move4",
-        "speed": 4,
-        "adjust": false,
+        "speed": 6,
+        "adjust": true,
         "pattern": [
           10,
           9,
@@ -27,8 +27,8 @@
       },
       "move6": {
         "name": "move6",
-        "speed": 4,
-        "adjust": false,
+        "speed": 6,
+        "adjust": true,
         "pattern": [
           12,
           13,
@@ -45,8 +45,8 @@
       },
       "move2": {
         "name": "move2",
-        "speed": 4,
-        "adjust": false,
+        "speed": 6,
+        "adjust": true,
         "pattern": [
           36,
           37,
@@ -64,8 +64,8 @@
       },
       "move8": {
         "name": "move8",
-        "speed": 4,
-        "adjust": false,
+        "speed": 6,
+        "adjust": true,
         "pattern": [
           24,
           25,
@@ -83,8 +83,8 @@
       },
       "move1": {
         "name": "move1",
-        "speed": 4,
-        "adjust": false,
+        "speed": 6,
+        "adjust": true,
         "pattern": [
           95,
           94,
@@ -102,8 +102,8 @@
       },
       "move3": {
         "name": "move3",
-        "speed": 4,
-        "adjust": false,
+        "speed": 6,
+        "adjust": true,
         "pattern": [
           60,
           61,
@@ -121,8 +121,8 @@
       },
       "move7": {
         "name": "move7",
-        "speed": 4,
-        "adjust": false,
+        "speed": 6,
+        "adjust": true,
         "pattern": [
           83,
           82,
@@ -140,8 +140,8 @@
       },
       "move9": {
         "name": "move9",
-        "speed": 4,
-        "adjust": false,
+        "speed": 6,
+        "adjust": true,
         "pattern": [
           48,
           49,
