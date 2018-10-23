@@ -838,7 +838,9 @@
       },
       "atk": {
         "name": "atk",
-        "speed": 10,
+
+        "speed": 5,
+
         "adjust": false,
         "pattern": [
           12,
