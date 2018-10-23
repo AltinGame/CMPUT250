@@ -867,7 +867,7 @@
     "poses": {
       "move2": {
         "name": "move2",
-        "speed": 6,
+        "speed": 5,
         "adjust": true,
         "pattern": [
           36,
@@ -886,7 +886,7 @@
       },
       "move4": {
         "name": "move4",
-        "speed": 6,
+        "speed": 5,
         "adjust": true,
         "pattern": [
           10,
@@ -904,7 +904,7 @@
       },
       "move6": {
         "name": "move6",
-        "speed": 6,
+        "speed": 5,
         "adjust": true,
         "pattern": [
           12,
@@ -922,7 +922,7 @@
       },
       "move8": {
         "name": "move8",
-        "speed": 6,
+        "speed": 5,
         "adjust": true,
         "pattern": [
           24,
@@ -941,26 +941,26 @@
       },
       "move1": {
         "name": "move1",
-        "speed": 6,
+        "speed": 5,
         "adjust": false,
         "pattern": [
-          84,
-          85,
-          86,
-          87,
-          88,
-          89,
-          90,
-          91,
-          92,
-          93,
+          95,
           94,
-          95
+          93,
+          92,
+          91,
+          90,
+          89,
+          88,
+          87,
+          86,
+          85,
+          84
         ]
       },
       "move3": {
         "name": "move3",
-        "speed": 6,
+        "speed": 5,
         "adjust": true,
         "pattern": [
           60,
@@ -979,26 +979,26 @@
       },
       "move7": {
         "name": "move7",
-        "speed": 6,
+        "speed": 5,
         "adjust": true,
         "pattern": [
-          72,
-          73,
-          74,
-          75,
-          76,
-          77,
-          78,
-          79,
-          80,
-          81,
+          83,
           82,
-          83
+          81,
+          80,
+          79,
+          78,
+          77,
+          76,
+          75,
+          74,
+          73,
+          72
         ]
       },
       "move9": {
         "name": "move9",
-        "speed": 6,
+        "speed": 5,
         "adjust": true,
         "pattern": [
           48,
