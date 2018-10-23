@@ -25,8 +25,10 @@ var $plugins =
 {"name":"QAudio","status":true,"description":"<QAudio>\nFew new audio features","parameters":{"Default Radius":"5","Default Max Volume":"100"}},
 {"name":"QCamera","status":true,"description":"<QCamera>\r\nBetter Camera control","parameters":{"Offset":"0.5","Shift Y":"0","Shift X":"0"}},
 {"name":"QTouch","status":true,"description":"<QTouch>\r\nBetter mouse handling for MV","parameters":{"Mouse Decay":"60","Default Cursor":"","Pointer Cursor":""}},
+
 {"name":"Kath_GameOver","status":false,"description":"Change what happens when the party dies or Game Over is called.","parameters":{"Party Death Common Event ID":"","Show Game Over Scene":"false","Reload Last Save":"true","After Game Over Common Event ID":"2"}},
 {"name":"TDDP_ManageDashing","status":true,"description":"1.0.1 Lets you manage the dashing mode in your game with simple plugin options.","parameters":{"Disable Auto-dash":"false","Force Dashing":"false","Disable Dashing":"false","Remove Always Dash Option":"true"}},
 {"name":"OrangeAutoSave","status":true,"description":"Automatically save the game on map change <OrangeAutoSave>","parameters":{"saveSlot":"1","saveOnPluginTransfer":"true","saveOnTransferCommand":"true","autoSaveSlot":"false"}},
 {"name":"SRD_GameOverCore","status":true,"description":"Gives more options for one's Game Over scene. Common Events can be called and a Retry function has been added.","parameters":{"Default Image":"GameOver","== Command Window ==":"","Use Command Window":"true","Command Window Phase":"end","Allow Retry Command":"false","Command Window X":"(Graphics.boxWidth - this._commandWindow.width) / 2","Command Window Y":"(Graphics.boxHeight - this._commandWindow.height) / 2","== Command Texts ==":"","Retry Command Text":"Retry Battle","Load Command Text":"Load Game","Title Command Text":"Return to Title","== Command Events ==":"","Start Common Event":"0","Middle Common Event":"0","End Common Event":"0"}}
+
 ];
