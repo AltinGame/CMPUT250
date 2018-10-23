@@ -844,7 +844,7 @@
     "rows": 16,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "D:\\temp2\\CMPUT250\\directions_enemy_demo\\img\\characters\\%newchar-newcahr.png",
+    "sampleImg": "E:\\my game\\CMPUT250\\directions_enemy_demo\\img\\characters\\%newchar-newcahr.png",
     "poses": {
       "move2": {
         "name": "move2",
@@ -870,17 +870,17 @@
         "speed": 6,
         "adjust": true,
         "pattern": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
+          10,
           9,
-          10
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
         ]
       },
       "move6": {

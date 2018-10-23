@@ -25,5 +25,7 @@ var $plugins =
 {"name":"QAudio","status":true,"description":"<QAudio>\nFew new audio features","parameters":{"Default Radius":"5","Default Max Volume":"100"}},
 {"name":"QCamera","status":true,"description":"<QCamera>\r\nBetter Camera control","parameters":{"Offset":"0.5","Shift Y":"0","Shift X":"0"}},
 {"name":"QTouch","status":true,"description":"<QTouch>\r\nBetter mouse handling for MV","parameters":{"Mouse Decay":"60","Default Cursor":"","Pointer Cursor":""}},
-{"name":"Kath_GameOver","status":true,"description":"Change what happens when the party dies or Game Over is called.","parameters":{"Party Death Common Event ID":"","Show Game Over Scene":"false","Reload Last Save":"true","After Game Over Common Event ID":""}}
+{"name":"Kath_GameOver","status":true,"description":"Change what happens when the party dies or Game Over is called.","parameters":{"Party Death Common Event ID":"","Show Game Over Scene":"false","Reload Last Save":"true","After Game Over Common Event ID":""}},
+{"name":"TDDP_ManageDashing","status":true,"description":"1.0.1 Lets you manage the dashing mode in your game with simple plugin options.","parameters":{"Disable Auto-dash":"false","Force Dashing":"true","Disable Dashing":"false","Remove Always Dash Option":"true"}},
+{"name":"OrangeAutoSave","status":true,"description":"Automatically save the game on map change <OrangeAutoSave>","parameters":{"saveSlot":"1","saveOnPluginTransfer":"true","saveOnTransferCommand":"true","autoSaveSlot":"false"}}
 ];
