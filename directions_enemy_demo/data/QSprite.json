@@ -530,7 +530,7 @@
     "rows": 8,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "D:\\temp2\\CMPUT250\\directions_enemy_demo\\img\\characters\\%config-boss.png",
+    "sampleImg": "E:\\my game\\CMPUT250\\directions_enemy_demo\\img\\characters\\%boss-boss.png",
     "poses": {
       "move2": {
         "name": "move2",
@@ -834,6 +834,25 @@
           9,
           10,
           11
+        ]
+      },
+      "atk": {
+        "name": "atk",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
         ]
       }
     }
