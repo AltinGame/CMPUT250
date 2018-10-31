@@ -5,7 +5,7 @@
     "rows": 8,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "D:\\temp2\\CMPUT250-develop\\CMPUT250-develop\\directions_enemy_demo\\img\\characters\\%config-character.png",
+    "sampleImg": "D:\\temp2\\CMPUT250\\directions_enemy_demo\\img\\characters\\%config-character.png",
     "poses": {
       "move4": {
         "name": "move4",
@@ -520,6 +520,679 @@
           18,
           19,
           20
+        ]
+      }
+    }
+  },
+  "boss": {
+    "name": "boss",
+    "cols": 12,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "E:\\my game\\CMPUT250\\directions_enemy_demo\\img\\characters\\%boss-boss.png",
+    "poses": {
+      "move2": {
+        "name": "move2",
+        "speed": 10,
+        "adjust": true,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 10,
+        "adjust": true,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 10,
+        "adjust": true,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move1": {
+        "name": "move1",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "idle2": {
+        "name": "idle2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "idle1": {
+        "name": "idle1",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "idle7": {
+        "name": "idle7",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "atk": {
+        "name": "atk",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    }
+  },
+  "newchar": {
+    "name": "newchar",
+    "cols": 12,
+    "rows": 16,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "E:\\my game\\CMPUT250\\directions_enemy_demo\\img\\characters\\%newchar-newcahr.png",
+    "poses": {
+      "move2": {
+        "name": "move2",
+        "speed": 5,
+        "adjust": true,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 5,
+        "adjust": true,
+        "pattern": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 5,
+        "adjust": true,
+        "pattern": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 5,
+        "adjust": true,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ]
+      },
+      "move1": {
+        "name": "move1",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          95,
+          94,
+          93,
+          92,
+          91,
+          90,
+          89,
+          88,
+          87,
+          86,
+          85,
+          84
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 5,
+        "adjust": true,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 5,
+        "adjust": true,
+        "pattern": [
+          83,
+          82,
+          81,
+          80,
+          79,
+          78,
+          77,
+          76,
+          75,
+          74,
+          73,
+          72
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 5,
+        "adjust": true,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "idle2": {
+        "name": "idle2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          120,
+          121,
+          122,
+          123,
+          124,
+          125
+        ]
+      },
+      "idle1": {
+        "name": "idle1",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          180,
+          181,
+          182,
+          183,
+          184,
+          185
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          156,
+          157,
+          158,
+          159,
+          160,
+          161
+        ]
+      },
+      "idle7": {
+        "name": "idle7",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          168,
+          169,
+          170,
+          171,
+          172,
+          173
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          144,
+          145,
+          146,
+          147,
+          148,
+          149
+        ]
+      }
+    }
+  },
+  "gate": {
+    "name": "gate",
+    "cols": 12,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\temp2\\CMPUT250\\directions_enemy_demo\\img\\characters\\%gate-boss_room.png",
+    "poses": {
+      "closing": {
+        "name": "closing",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "closed": {
+        "name": "closed",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          11,
+          10,
+          9
+        ]
+      }
+    }
+  },
+  "rock": {
+    "name": "rock",
+    "cols": 12,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "Z:\\ID-NAS\\__Abay\\My stuff\\CMPUT250\\directions_enemy_demo\\img\\pictures\\rock.png",
+    "poses": {
+      "idle": {
+        "name": "idle",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0
+        ]
+      },
+      "crumble": {
+        "name": "crumble",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
         ]
       }
     }
