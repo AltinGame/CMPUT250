@@ -485,13 +485,13 @@
       }
     }
   },
-  "orb": {
-    "name": "orb",
+  "ord": {
+    "name": "ord",
     "cols": 21,
     "rows": 1,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "D:\\temp2\\CMPUT250-develop\\CMPUT250-develop\\directions_enemy_demo\\img\\characters\\%config-orb.png",
+    "sampleImg": "D:\\temp2\\CMPUT250\\directions_enemy_demo\\img\\characters\\%ord-orb.png",
     "poses": {
       "Pose0": {
         "name": "Pose0",
@@ -503,7 +503,6 @@
           2,
           3,
           4,
-          6,
           5,
           6,
           7,
@@ -519,6 +518,14 @@
           17,
           18,
           19,
+          20
+        ]
+      },
+      "stop": {
+        "name": "stop",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
           20
         ]
       }
