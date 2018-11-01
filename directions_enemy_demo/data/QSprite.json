@@ -1203,5 +1203,23 @@
         ]
       }
     }
+  },
+  "hole": {
+    "name": "hole",
+    "cols": 1,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "C:\\Users\\ningbo\\Documents\\GitHub\\CMPUT250\\directions_enemy_demo\\img\\characters\\%hole-hole.png",
+    "poses": {
+      "hole": {
+        "name": "hole",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0
+        ]
+      }
+    }
   }
 }
