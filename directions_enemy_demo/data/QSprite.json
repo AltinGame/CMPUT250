@@ -162,15 +162,15 @@
   "monster1": {
     "name": "monster1",
     "cols": 12,
-    "rows": 8,
+    "rows": 12,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "D:\\temp2\\CMPUT250-develop\\CMPUT250-develop\\directions_enemy_demo\\img\\characters\\%config-monster1 move.png",
+    "sampleImg": "D:\\temp2\\CMPUT250\\directions_enemy_demo\\img\\characters\\%monster1-with death.png",
     "poses": {
       "move2": {
         "name": "move2",
         "speed": 12,
-        "adjust": false,
+        "adjust": true,
         "pattern": [
           36,
           37,
@@ -189,7 +189,7 @@
       "move4": {
         "name": "move4",
         "speed": 12,
-        "adjust": false,
+        "adjust": true,
         "pattern": [
           11,
           10,
@@ -208,7 +208,7 @@
       "move6": {
         "name": "move6",
         "speed": 12,
-        "adjust": false,
+        "adjust": true,
         "pattern": [
           12,
           13,
@@ -241,6 +241,134 @@
           33,
           34,
           35
+        ]
+      },
+      "move1": {
+        "name": "move1",
+        "speed": 10,
+        "adjust": true,
+        "pattern": [
+          95,
+          94,
+          93,
+          92,
+          91,
+          90,
+          89,
+          88,
+          87,
+          86,
+          85,
+          84
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 10,
+        "adjust": true,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 10,
+        "adjust": true,
+        "pattern": [
+          83,
+          82,
+          81,
+          80,
+          79,
+          78,
+          77,
+          76,
+          75,
+          74,
+          73,
+          72
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 10,
+        "adjust": true,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "death6": {
+        "name": "death6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ]
+      },
+      "death4": {
+        "name": "death4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          113,
+          112,
+          111,
+          110,
+          109,
+          108
+        ]
+      },
+      "death8": {
+        "name": "death8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          120,
+          121,
+          122,
+          123,
+          124,
+          125
+        ]
+      },
+      "death2": {
+        "name": "death2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137
         ]
       }
     }
