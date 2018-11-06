@@ -4,9 +4,9 @@
  * @author Siako Chen
  *
  * @help
- * plugin Command useage: 
+ * plugin Command useage:
  * N/A
- */ 
+ */
 //=============================================================================
 
 (function(){
@@ -20,31 +20,35 @@
 
 	//建立圖片化選項
 	Scene_Menu.prototype.createCommandImages = function(){
-		
+
 		// Sprite 圖形化宣告
 		// Sprite_Button 圖形化按鈕宣告
 
 		this._itemButton = new Sprite_Button();
 		this._itemButton.setClickHandler(this.commandItem.bind(this));
 		this._itemButton.y = 100;
+		this._itemButton.x = 540;
+
 
 		this._saveButton = new Sprite_Button();
-		this._saveButton.setClickHandler(this.commandSave.bind(this));		
+		this._saveButton.setClickHandler(this.commandSave.bind(this));
 		this._saveButton.y = 180;
+		this._saveButton.x = 540;
 
 		this._loadButton = new Sprite_Button();
-		this._loadButton.setClickHandler(this.commandLoad.bind(this));		
+		this._loadButton.setClickHandler(this.commandLoad.bind(this));
 		this._loadButton.y = 260;
+		this._loadButton.x = 540;
 
 		this._optionsButton = new Sprite_Button();
-		this._optionsButton.setClickHandler(this.commandOptions.bind(this));		
+		this._optionsButton.setClickHandler(this.commandOptions.bind(this));
 		this._optionsButton.y = 340;
+		this._optionsButton.x = 540;
 
 		this._endButton = new Sprite_Button();
-		this._endButton.setClickHandler(this.commandGameEnd.bind(this));		
+		this._endButton.setClickHandler(this.commandGameEnd.bind(this));
 		this._endButton.y = 420;
-
-		this.addChild( this._itemButton );
+		this._endButton.x = 540;
 		this.addChild( this._saveButton );
 		this.addChild( this._loadButton );
 		this.addChild( this._optionsButton );
@@ -57,8 +61,8 @@
 	Scene_Menu.prototype.update = function(){
 
 		//將菜單的預設控制選擇載入
-		Scene_MenuBase.prototype.update.call(this);     
-			    
+		Scene_MenuBase.prototype.update.call(this);
+
 		//控制圖片切換的樣式
 		switch( this._commandWindow._index ){
 
@@ -69,7 +73,7 @@
 				this._loadButton.bitmap = ImageManager.loadPicture('menuBtn_03o');
 				this._optionsButton.bitmap = ImageManager.loadPicture('menuBtn_04o');
 				this._endButton.bitmap = ImageManager.loadPicture('menuBtn_05o');
-		
+
 			break;
 
 			//存檔
@@ -106,7 +110,7 @@
 				this._loadButton.bitmap = ImageManager.loadPicture('menuBtn_03o');
 				this._optionsButton.bitmap = ImageManager.loadPicture('menuBtn_04o');
 				this._endButton.bitmap = ImageManager.loadPicture('menuBtn_05');
-			break;									
+			break;
 
 		}
 	}
@@ -125,7 +129,7 @@
 
 	    this._commandWindow.setHandler('item',      this.commandItem.bind(this));
 	    this._commandWindow.setHandler('save',      this.commandSave.bind(this));
-	    this._commandWindow.setHandler('load',      this.commandLoad.bind(this));	    
+	    this._commandWindow.setHandler('load',      this.commandLoad.bind(this));
 	    this._commandWindow.setHandler('options',   this.commandOptions.bind(this));
 	    this._commandWindow.setHandler('gameEnd',   this.commandGameEnd.bind(this));
 	    this._commandWindow.setHandler('cancel',    this.popScene.bind(this));
@@ -146,7 +150,7 @@
 	};
 
 	//建立菜單背景
-	Scene_MenuBase.prototype.createBackground = function() {
+	/*Scene_MenuBase.prototype.createBackground = function() {
 	    this._backgroundSprite = new Sprite();
 
 	    //物品功能背景
@@ -182,18 +186,18 @@
 	    }
 
 	    this.addChild(this._backgroundSprite);
-	};
+	};*/
 
 	Window_MenuCommand.prototype.makeCommandList = function() {
 	    this.addMainCommands();
 	    this.addSaveCommand();
 	    this.addLoadCommand();
-	    this.addOptionsCommand();	    
+	    this.addOptionsCommand();
 	    this.addGameEndCommand();
 	};
 
 	Window_MenuCommand.prototype.addLoadCommand = function(){
 		this.addCommand( '讀取進度', 'load', true );
 	}
-	
+
 })();
