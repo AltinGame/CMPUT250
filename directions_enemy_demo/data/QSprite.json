@@ -581,7 +581,7 @@
     "rows": 12,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "E:\\my game\\CMPUT250\\directions_enemy_demo\\img\\characters\\%monster3-monster3 move.png",
+    "sampleImg": "C:\\Users\\ningbo\\Documents\\GitHub\\CMPUT250\\directions_enemy_demo\\img\\characters\\%monster3-monster3 move.png",
     "poses": {
       "move2": {
         "name": "move2",
@@ -601,12 +601,12 @@
         "speed": 12,
         "adjust": true,
         "pattern": [
-          12,
-          13,
-          14,
-          15,
-          16,
-          17
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "move6": {
@@ -627,12 +627,12 @@
         "speed": 12,
         "adjust": true,
         "pattern": [
-          12,
-          13,
-          14,
-          15,
+          17,
           16,
-          17
+          15,
+          14,
+          13,
+          12
         ]
       },
       "move1": {
