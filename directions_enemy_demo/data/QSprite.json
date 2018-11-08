@@ -1491,5 +1491,112 @@
         ]
       }
     }
+  },
+  "tendril_ right": {
+    "name": "tendril_ right",
+    "cols": 12,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "C:\\Users\\ningbo\\Documents\\GitHub\\CMPUT250\\directions_enemy_demo\\img\\characters\\%tendril_ right-tendril_ right.png",
+    "poses": {
+      "static": {
+        "name": "static",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0
+        ]
+      },
+      "disappear": {
+        "name": "disappear",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    }
+  },
+  "tendril_left": {
+    "name": "tendril_left",
+    "cols": 12,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "C:\\Users\\ningbo\\Documents\\GitHub\\CMPUT250\\directions_enemy_demo\\img\\characters\\%tendril_left-tendril_left.png",
+    "poses": {
+      "static": {
+        "name": "static",
+        "speed": 10,
+        "adjust": false,
+        "pattern": []
+      },
+      "disappear": {
+        "name": "disappear",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    }
+  },
+  "tendril_down": {
+    "name": "tendril_down",
+    "cols": 12,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "C:\\Users\\ningbo\\Documents\\GitHub\\CMPUT250\\directions_enemy_demo\\img\\characters\\%tendril_down-tendril_down.png",
+    "poses": {
+      "static": {
+        "name": "static",
+        "speed": 10,
+        "adjust": false,
+        "pattern": []
+      },
+      "disappear": {
+        "name": "disappear",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    }
   }
 }
