@@ -1598,5 +1598,40 @@
         ]
       }
     }
+  },
+  "rock1": {
+    "name": "rock1",
+    "cols": 12,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "C:\\Users\\ningbo\\Documents\\CMPUT250\\directions_enemy_demo\\img\\characters\\%rock1-rock1.png",
+    "poses": {
+      "idle": {
+        "name": "idle",
+        "speed": 10,
+        "adjust": false,
+        "pattern": []
+      },
+      "crumble": {
+        "name": "crumble",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    }
   }
 }
