@@ -15,3 +15,4 @@
 * __Keep history clean.__ No `--force` pushing on branches that aren't yours.
 
 * __Be nice.__ every developer is nice, so we are all nice.
+*
