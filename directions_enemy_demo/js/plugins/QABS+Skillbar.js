@@ -19,7 +19,7 @@ Imported.QABS_Skillbar = '2.0.1';
  * @author Quxios  | Version 2.0.1
  * @site https://quxios.github.io/
  * @updateurl https://quxios.github.io/data/pluginsMin.json
- * 
+ *
  * @requires QABS
  *
  * @param Show Unassigned Keys
@@ -41,12 +41,12 @@ Imported.QABS_Skillbar = '2.0.1';
  * ## About
  * ============================================================================
  * This is an addon to QABS plugin. This plugin adds a mmo like skillbar to QABS.
- * 
+ *
  * ============================================================================
  * ## How to use
  * ============================================================================
  * Install this plugin somewhere below QABS.
- * 
+ *
  * ============================================================================
  * ## Toggling hud
  * ============================================================================
@@ -54,7 +54,7 @@ Imported.QABS_Skillbar = '2.0.1';
  * ~~~
  * QABS skillbar show
  * ~~~
- * 
+ *
  * To hide the skillbar, use:
  * ~~~
  * QABS skillbar hide
@@ -189,7 +189,7 @@ function Sprite_SkillInfo() {
 
   Sprite_Skillbar.prototype.initialize = function() {
     Sprite_Base.prototype.initialize.call(this);
-    this.y = Graphics.height - 36;
+    this.y = Graphics.height - 66;
     this._over = 0;
     this._actorId = $gameParty.leader()._actorId;
     this.requestPositionUpdate = true;
@@ -229,7 +229,8 @@ function Sprite_SkillInfo() {
         this._buttons[i].updatePosition();
         if (this._buttons[i].visible) width += 36;
       }
-      this.x = (Graphics.width - width) / 2;
+      this.x = 30;
+      //this.y = 10;//(Graphics.width - width) ;
     }
   };
 
