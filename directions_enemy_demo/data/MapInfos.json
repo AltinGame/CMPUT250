@@ -2,8 +2,8 @@
 null,
 {"id":1,"expanded":false,"name":"cut","order":4,"parentId":0,"scrollX":1139,"scrollY":661},
 null,
-{"id":3,"expanded":false,"name":"Inner Castle","order":1,"parentId":0,"scrollX":1273,"scrollY":1586},
-{"id":4,"expanded":true,"name":"Final Boss","order":2,"parentId":0,"scrollX":1131,"scrollY":1958},
+{"id":3,"expanded":false,"name":"Inner Castle","order":1,"parentId":0,"scrollX":1696.5,"scrollY":1455},
+{"id":4,"expanded":true,"name":"Final Boss","order":2,"parentId":0,"scrollX":1131,"scrollY":1496},
 null,
-{"id":6,"expanded":true,"name":"LEVEL 1B","order":3,"parentId":0,"scrollX":1131,"scrollY":4147}
+{"id":6,"expanded":true,"name":"LEVEL 1B","order":3,"parentId":0,"scrollX":2092,"scrollY":1463}
 ]
