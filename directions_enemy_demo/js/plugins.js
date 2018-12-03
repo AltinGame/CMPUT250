@@ -19,8 +19,6 @@ var $plugins =
 {"name":"QSpeed","status":true,"description":"<QSpeed>\r\nAllows for custom Move speeds and an acceleration effect","parameters":{"Acceleration":"true","Duration":"30","Dash Inc":"1"}},
 {"name":"QM+CollisionMap","status":true,"description":"<QMCollisionMap>\nQMovement Addon: Adds image collision map feature","parameters":{"Scan Size":"4","Folder":"img/parallaxes/"}},
 {"name":"========================","status":true,"description":"","parameters":{}},
-{"name":"OrangeOverlay","status":true,"description":"v1.1.2 - Adds overlay images to the map <OrangeOverlay>","parameters":{"Organized Folders":"false","Parallax Layer Filename":"par","Ground Layer Filename":"ground","Light Layer Filename":"light","Shadow Layer Filename":"shadow","Light Opacity":"185","Quick Start":"true","Bush Region ID":"7","Fog Switch ID":"1","Light Switch ID":"2","Parallax Switch ID":"3","Shadow Switch ID":"4"}},
-{"name":"========================","status":true,"description":"","parameters":{}},
 {"name":"SRD_SuperToolsEngine","status":true,"description":"The heart of all maker-style plugins; it adds a playtesting editor that can be opened with F12.","parameters":{"Connect Editor":"true","Auto Open Window":"false","Auto Move Window":"true","Menu Editor Exempt List":"[\"Window_BattleLog\",\"Window_MapName\"]"}},
 {"name":"SRD_HUDMaker","status":true,"description":"Allows developers to create their own map-based HUD through an in-game GUI window!","parameters":{"Active Updating":"false","Show During Events":"transparent","Map Global Condition":"","Battle Global Condition":"","Disable Delete Key":"true"}},
 {"name":"QAudio","status":true,"description":"<QAudio>\nFew new audio features","parameters":{"Default Radius":"5","Default Max Volume":"100"}},
