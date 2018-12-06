@@ -12,7 +12,7 @@
 (function() {
 	StorageManager.localFileDirectoryPath = function() {
 		var gui = require('nw.gui');
-		var win = nw.Window.get();
+		var win = gui.Window.get();
 		if (window.$dataSystem) {
 			return gui.App.dataPath + "\\" + window.$dataSystem.gameTitle + "\\";
 		}
