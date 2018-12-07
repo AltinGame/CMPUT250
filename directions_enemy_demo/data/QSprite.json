@@ -1657,8 +1657,8 @@
       },
       "disappear": {
         "name": "disappear",
-        "speed": 10,
-        "adjust": false,
+        "speed": 8,
+        "adjust": true,
         "pattern": [
           0,
           1,
@@ -1692,8 +1692,8 @@
       },
       "disappear": {
         "name": "disappear",
-        "speed": 10,
-        "adjust": false,
+        "speed": 8,
+        "adjust": true,
         "pattern": [
           0,
           1,
@@ -1727,8 +1727,8 @@
       },
       "disappear": {
         "name": "disappear",
-        "speed": 10,
-        "adjust": false,
+        "speed": 8,
+        "adjust": true,
         "pattern": [
           0,
           1,
@@ -2072,20 +2072,31 @@
     "rows": 2,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "E:\\MyGame\\CMPUT250\\directions_enemy_demo\\img\\characters\\%chain-SPRITESHEET.png",
+    "sampleImg": "C:\\Users\\ningbo\\Documents\\GitHub\\CMPUT250\\directions_enemy_demo\\img\\characters\\%chain-SPRITESHEET.png",
     "poses": {
       "idle": {
         "name": "idle",
-        "speed": 10,
-        "adjust": false,
+        "speed": 8,
+        "adjust": true,
         "pattern": [
-          0
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
         ]
       },
       "dying": {
         "name": "dying",
-        "speed": 15,
-        "adjust": false,
+        "speed": 10,
+        "adjust": true,
         "pattern": [
           12,
           13,
@@ -2104,7 +2115,7 @@
       "dead": {
         "name": "dead",
         "speed": 10,
-        "adjust": false,
+        "adjust": true,
         "pattern": [
           23
         ]
