@@ -5,5 +5,5 @@ null,
 {"id":3,"expanded":false,"name":"Inner Castle","order":1,"parentId":0,"scrollX":1465.0909090909092,"scrollY":1093.0909090909092},
 {"id":4,"expanded":true,"name":"Final Boss","order":2,"parentId":0,"scrollX":2137.090909090909,"scrollY":2009.4545454545455},
 null,
-{"id":6,"expanded":true,"name":"LEVEL 1B","order":3,"parentId":0,"scrollX":1947.2727272727273,"scrollY":3486.5454545454545}
+{"id":6,"expanded":true,"name":"LEVEL 1B","order":3,"parentId":0,"scrollX":868,"scrollY":4316.666666666667}
 ]
