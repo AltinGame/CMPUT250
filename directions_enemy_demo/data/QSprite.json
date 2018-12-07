@@ -1792,7 +1792,7 @@
       "stay": {
         "name": "stay",
         "speed": 10,
-        "adjust": false,
+        "adjust": true,
         "pattern": [
           0,
           1,
@@ -1835,7 +1835,7 @@
       "grab": {
         "name": "grab",
         "speed": 10,
-        "adjust": false,
+        "adjust": true,
         "pattern": [
           36,
           37,
@@ -1878,7 +1878,7 @@
       "hole": {
         "name": "hole",
         "speed": 10,
-        "adjust": false,
+        "adjust": true,
         "pattern": [
           72
         ]
