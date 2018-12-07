@@ -2077,7 +2077,7 @@
       "idle": {
         "name": "idle",
         "speed": 8,
-        "adjust": true,
+        "adjust": false,
         "pattern": [
           0,
           1,
